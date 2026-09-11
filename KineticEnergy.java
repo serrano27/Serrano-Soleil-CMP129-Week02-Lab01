@@ -11,7 +11,11 @@ public class KineticEnergy
         mass = keyboard.nextDouble();
         //ask user for velocity of object
         System.out.println("Enter the object's velocity in meters per second: ");
-        velocity = nextDouble();
+        velocity = keyboard.nextDouble();
+        kE = kineticEnergy(mass, velocity);
+        
+        //display the kinetic energy
+        System.out.printf("Kinetic Energy: %.2f",kE);
         
 
     }
@@ -21,7 +25,7 @@ public class KineticEnergy
     */
    public static double kineticEnergy(double m, double v) //m is mass, v is velocity
    {
-        kE = (1/2)*m*Math.pow(v,2);
-        return kE;
+        double kineticE = (.5)*m*Math.pow(v,2);
+        return kineticE;
    }
 }
