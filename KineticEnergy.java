@@ -1,3 +1,10 @@
+/*
+Name: Soleil Serrano
+Course #: 80231
+Week: 2
+Lab: 1
+Date: 9/11/2026
+*/
 import java.util.Scanner;
 public class KineticEnergy 
 {
